@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  scroll-behavior: smooth;
+}
+
+/* Navigation */
+header {
+  background: #111;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #004aad, #0076ff);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.schedule-list {
+  list-style: none;
+  font-size: 18px;
+}
+
+/* Buttons */
+.btn {
+  background: #0076ff;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Speakers Grid */
+.speakers-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.speaker-card {
+  background: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
